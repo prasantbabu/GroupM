@@ -1,0 +1,60 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.1.4">
+  <diagram name="Page-1" id="-IOwKQEhf0b7M30xdXPS">
+    <mxGraphModel dx="1048" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="U4OctThjefIGGgKs7hL_-1" value="&#xa;  &#xa;    &#xa;      &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;      &#xa;    &#xa;  &#xa;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry width="30" height="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="U4OctThjefIGGgKs7hL_-2" value="&#xa;  &#xa;    &#xa;      &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;      &#xa;    &#xa;  &#xa;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry width="30" height="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="U4OctThjefIGGgKs7hL_-3" value="GCS Bucket (Raw Data Upload)" style="rounded=1;fillColor=#4A90E2;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry y="100" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U4OctThjefIGGgKs7hL_-4" value="API Extraction (Spotify / Kaggle)" style="rounded=1;fillColor=#F5A623;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="10" y="200" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U4OctThjefIGGgKs7hL_-5" value="Cloud Composer (Airflow)" style="rounded=1;fillColor=#7ED321;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="280" y="150" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="U4OctThjefIGGgKs7hL_-6" value="Transformation Scripts (Python)" style="rounded=1;fillColor=#D0021B;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="520" y="90" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U4OctThjefIGGgKs7hL_-7" value="BigQuery (Data Warehouse)" style="rounded=1;fillColor=#4178BE;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="790" y="150" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U4OctThjefIGGgKs7hL_-8" value="Power BI (Visualization)" style="rounded=1;fillColor=#00ADEF;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="150" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U4OctThjefIGGgKs7hL_-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="U4OctThjefIGGgKs7hL_-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4OctThjefIGGgKs7hL_-9" value="Monitoring &amp; Management (Airflow UI, Logs)" style="rounded=1;fillColor=#9B9B9B;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="490" y="280" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U4OctThjefIGGgKs7hL_-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1" source="U4OctThjefIGGgKs7hL_-3" target="U4OctThjefIGGgKs7hL_-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U4OctThjefIGGgKs7hL_-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1" source="U4OctThjefIGGgKs7hL_-4" target="U4OctThjefIGGgKs7hL_-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U4OctThjefIGGgKs7hL_-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1" source="U4OctThjefIGGgKs7hL_-5" target="U4OctThjefIGGgKs7hL_-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U4OctThjefIGGgKs7hL_-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1" source="U4OctThjefIGGgKs7hL_-6" target="U4OctThjefIGGgKs7hL_-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U4OctThjefIGGgKs7hL_-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1" source="U4OctThjefIGGgKs7hL_-7" target="U4OctThjefIGGgKs7hL_-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U4OctThjefIGGgKs7hL_-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1" source="U4OctThjefIGGgKs7hL_-5" target="U4OctThjefIGGgKs7hL_-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
